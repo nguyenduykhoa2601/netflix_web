@@ -1,0 +1,144 @@
+.home__page{
+    overflow-x: hidden;
+    margin-bottom: 100px;
+}
+
+.header__trailer {
+    position: relative;
+    top: 0;
+    z-index: -1;
+    background-color: black;
+    align-items: center;
+}
+
+
+.detail__trailer {
+    position: absolute;
+    max-width: 35%;
+    margin-top: -400px;
+    color: white;
+    font-weight: 200;
+    margin-left: 30px;
+  
+}
+
+.trailer__title {
+    font-size: 3rem;
+    padding: 10px 12px;
+    font-weight: 500;
+}
+
+.trailer__action{
+    margin-top: 10px;
+    display: flex;
+}
+.trailer__desc{
+    font-size: 1.8rem;
+}
+
+.trailer__watch{
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 12px;
+    background-color: white;
+}
+.trailer__watch-link{
+    color: black;
+    text-decoration: none;
+}
+
+.trailer__watch:hover{
+    background-color: #ccc;
+}
+
+.trailer__watch i,
+.trailer__info i{
+
+    font-size: 2rem;
+}
+.trailer__watch span,
+.trailer__info span{
+    padding: 10px 13px;
+    font-size: 1.8rem;
+}
+
+.trailer__info{
+    background-color: #666;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 12px;
+    margin-left: 10px;
+}
+.trailer__info-link{
+    text-decoration: none;
+    color: white
+}
+
+.trailer__info:hover{
+    background-color: rgb(48, 46, 46);
+}
+
+.react-player {
+    
+    z-index: -1;
+    text-align: center;
+  
+}
+
+.label {
+    padding: 5px 0;
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    top: 60%;
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.label i {
+    color: white;
+    font-size: 2.5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px 10px;
+    z-index: 5;
+}
+.label i:hover{
+    background-color: rgb(73, 73, 73);
+    cursor: pointer;
+}
+
+.label span {
+    font-size: 2.5rem;
+    margin-left: 20px;
+    border: 1px solid white;
+    padding: 5px 20px 5px 10px;
+    background-color: rgb(58, 57, 57);
+}
+
+
+@media (max-width: 950px) {
+    .detail__trailer{
+        display: none;
+    }
+    .label{
+        display: none;
+    }
+}
+
+@media (max-width: 1100px) {
+    .detail__trailer{
+        display: none;
+    }
+    .label{
+        top: 40%;
+    }
+    
+}

@@ -1,0 +1,159 @@
+.header {
+    z-index: 10;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    max-width: 100%;
+    margin:  auto;
+}
+
+.list__menu-logo img {
+    width: 100px;
+    height: 100%;
+}
+
+.list__menu-item img {
+    width: 25px;
+    height: 25px;
+}
+
+.list__menu-item {
+    position: relative;
+}
+
+.list__menu-item i {
+    cursor: pointer;
+}
+
+.list__menu-item i:hover {
+    opacity: 0.9;
+}
+
+.list__menu {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.list__menu li {
+    padding: 0 10px;
+}
+
+.inputSearch {
+    background-color: white;
+    border-radius: 2px;
+    background-color: rgb(56, 55, 55);
+}
+
+.inputSearch i {
+    padding: 4px 10px;
+    margin: 4px 0;
+    border-right: 1px solid white;
+    cursor: pointer;
+}
+
+.inputSearch i:hover {
+    opacity: 0.9;
+}
+
+.list__menu-search {
+    background-color: transparent;
+    border: none;
+    font-size: 1.4  rem;
+    padding: 4px 4px;
+    border-radius: 2px;
+    color: white;
+
+}
+
+.list__menu-text {
+    cursor: text;
+}
+
+.list__menu-user-icon {
+    position: relative;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.list__menu-user-icon:hover .list__menu-user {
+    display: block;
+}
+
+.list__menu-user {
+    position: absolute;
+    display: none;
+    top: 100%;
+    right: -10px;
+    background-color: rgb(41, 41, 41);
+    list-style: none;
+    width: 150px;
+    margin-top: 10px;
+    text-align: right;
+    border-radius: 2px;
+    z-index: 999;
+    font-weight: 300;
+}
+.list__menu-link{
+    text-decoration: none;
+    color: white;
+}
+
+.list__menu-user::before {
+    content: "";
+    position: absolute;
+    border-width: 10px 5px;
+    top: -18px;
+    right: 10px;
+    border-style: solid;
+    border-color: transparent transparent rgb(41, 41, 41) transparent;
+}
+
+.list__menu-user::after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 150px;
+    top: -5px;
+    right: 0;
+    background-color: transparent;
+}
+
+.list__menu-user li {
+    padding: 8px 10px;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.list__menu-user li:last-child {
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.list__menu-user li:first-child {
+    margin-top: 10px;
+}
+
+.list__menu-user li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.close__menu{
+    display: none;
+}
+
+.header-bars{
+    color: white;
+    display: none;
+}

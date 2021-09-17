@@ -1,0 +1,135 @@
+.detail__movie{
+    color: white;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.detail__movie-logo{
+    width: 150px;
+    height: 80px;
+    margin: 20px 0 0 20px;
+}
+.detail__movie-heading{
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: -50px;
+    font-weight: 500;
+}
+.detail__movie-body{
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+
+    
+}
+.movie__action{
+    display: block;
+
+}
+.movie__poster{
+    width: 80%;
+    height: 80%;
+}
+
+.movie__watch-now{
+    background-color: white;
+    color: #666;
+    width: 20%;
+    margin-left: 40%;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 2px;
+    font-size: 1.6rem;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+.movie__watch-now:hover{
+    background-color: #ccc;
+}
+
+.movie__watch-now-link{
+    text-decoration: none;
+}
+
+
+.movie__info{
+    display: block;
+}
+
+.movie__info-title{
+    font-size: 3rem;
+}
+
+.movie__info-more{
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie__info-year{
+    font-size: 1.6rem;
+    padding: 5px 0;
+}
+.movie__info-limit{
+    margin:  auto;
+    font-size: 1.6rem;
+    padding: 5px 0;
+}
+
+.movie__info-desc{
+    margin-top: 30px;
+}
+
+.movie__info-desc{
+    width: 80%;
+    text-align: left;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.movie__info-type{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+
+
+@media (max-width: 950px){
+    .detail__movie-logo{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .detail__movie-heading{
+        display: none;
+    }
+    .detail__movie-body{
+        margin-top: 0;
+        flex-direction: column-reverse;
+    }
+    .movie__poster{
+        width: 100%;
+    }
+    .movie__info{
+        text-align: center;
+    }
+    .movie__info-desc{
+        display: none;
+    }
+    .movie__info-more{
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+    .movie__info-year{
+        margin-right: 5px;
+    }
+    .movie__info-limit{
+        margin-left: 5px;
+    }
+    .movie__info-type{
+        text-align: center;
+    }
+}

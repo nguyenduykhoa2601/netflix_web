@@ -1,0 +1,120 @@
+.user__account{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.user__account img{
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+.user__account-heading{
+    margin-top: -90px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: rgb(218, 45, 45)
+}
+.user__account-body{
+    margin-top: 30px;
+
+    display: flex;
+}
+.user__account-body table{
+    font-size: 1.6rem;
+    width: 40%;
+    margin-left: 10%;
+}
+.user__account-body table td{
+    padding: 7px 0;
+}
+
+.user__account-body table td input{
+    font-size: 1.4rem;
+    padding: 7px 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.user__account-type{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+.user__account-type span{
+    margin-right: 10px;
+}
+.user__account-action{
+    display: flex;
+}
+.user__account-action div{
+    display: flex;
+    align-items: center;
+    background-color: rgb(241, 203, 203);
+    border-radius: 4px;
+    
+    min-width: 100px;
+}
+.user__account-action div:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.user__account-action div i{
+    color: rgb(224, 16, 16);
+    padding: 2px 5px
+}
+.user__account-action div span{
+    padding: 2px 0;
+
+   
+}
+
+.user__account-action button{
+    padding: 2px 15px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 1.4rem;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+.user__account-action button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.policy{
+    margin-left: 5%;
+}
+
+.policy__heading{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(81, 81, 126)
+    
+}
+
+.policy__body{
+    list-style: none;
+    list-style-type:decimal;
+    margin-top: 10px;
+}
+
+.policy__body li{
+    font-size: 1.6rem;
+    color: blueviolet;
+    padding : 0 10px;
+
+
+}
+
+.policy__body li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
